@@ -1,14 +1,25 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "It is an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desalu/Read-Write-Delete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/desalu/Read-Write-Delete/issues"
+  },
+  "homepage": "https://github.com/desalu/Read-Write-Delete#readme",
+  "keywords": []
 }
