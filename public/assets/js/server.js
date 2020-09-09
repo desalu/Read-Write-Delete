@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //set the port
-const PORT = 7000;
+const PORT = process.env.PORT || 7000;
 
 //Landing page route
 app.get('/', function (req, res) {
